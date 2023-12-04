@@ -33,7 +33,9 @@
     "reimport": "npx hardhat run script/recreateNetworkFile.ts --network",
     "test": "forge test",
     "upgrade:": "npx hardhat run script/upgrade/upgradeEverything.ts --network",
-    "upgrade:force": "npx hardhat run script/upgrade/forceUpgradeEverything.ts --network"
+    "upgrade:force": "npx hardhat run script/upgrade/forceUpgradeEverything.ts --network",
+    "deploy:issuers": "npx hardhat run script/deploy/deployIssuers.ts --network",
+    "deploy:createIssuersSchema": "npx hardhat run script/deploy/createIssuersSchema.ts --network"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^3.0.4",
